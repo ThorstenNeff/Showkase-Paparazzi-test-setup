@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
     }
 
     fun startShowKase() {
-        Showkase.getBrowserIntent(this)
+        startActivity(Showkase.getBrowserIntent(this))
     }
 
     fun startHome() {
