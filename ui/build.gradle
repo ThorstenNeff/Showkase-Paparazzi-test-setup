@@ -46,7 +46,6 @@ dependencies {
 
     // Showkast
     implementation "com.airbnb.android:showkase:1.0.0-beta18"
-    implementation "com.airbnb.android:showkase-screenshot-testing-paparazzi:1.0.0-beta18"
     kapt "com.airbnb.android:showkase-processor:1.0.0-beta18"
 
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
@@ -62,6 +61,8 @@ dependencies {
 
     testImplementation "com.airbnb.android:showkase-screenshot-testing-paparazzi:1.0.0-beta18"
     kaptTest("com.airbnb.android:showkase-processor:1.0.0-beta18")
+    kaptAndroidTest("com.airbnb.android:showkase-processor:1.0.0-beta18")
+    testImplementation("com.airbnb.android:showkase-screenshot-testing:1.0.0-beta18")
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
