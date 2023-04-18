@@ -36,21 +36,10 @@ class MainActivity : ComponentActivity() {
                         }) {
                             Text("Start HomeActivity")
                         }
-
-                        Button(onClick = {
-                            startShowKase()
-
-                        }) {
-                            Text("Start ShowKase")
-                        }
                     }
                 }
             }
         }
-    }
-
-    fun startShowKase() {
-        startActivity(Showkase.getBrowserIntent(this))
     }
 
     fun startHome() {

@@ -14,9 +14,7 @@ fun MyScreen() {
     Column {
         Text("MyScreen")
         Button(modifier = Modifier, onClick = {
-            //context.startActivity()
-
-            // openShowKast()
+            context.startActivity(Showkase.getBrowserIntent(context))
         }) {
             Text(text = "ShowKast")
         }

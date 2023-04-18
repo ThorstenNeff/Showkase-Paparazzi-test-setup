@@ -17,7 +17,7 @@ class MyPaparazziTest {
     @Test
     fun `test homescreen`() {
         paparazzi.snapshot {
-            HomeScreen({})
+            HomeScreen()
         }
     }
 }
