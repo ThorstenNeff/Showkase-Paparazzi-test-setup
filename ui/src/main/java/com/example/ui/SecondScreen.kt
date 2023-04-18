@@ -8,19 +8,19 @@ import androidx.compose.ui.tooling.preview.Preview
 
 
 @Composable
-fun HomeScreen() {
+fun SecondScreen() {
     Column {
-        Text("Homescreen")
+        Text("SecondScreen")
         Button(onClick = {
             // openShowKast()
         }) {
-            Text(text = "ShowKast")
+            Text(text = "Some button")
         }
     }
 }
 
 @Preview
 @Composable
-fun HomeScreenPreview() {
-    HomeScreen()
+fun SecondScreenPreview() {
+    SecondScreen()
 }
